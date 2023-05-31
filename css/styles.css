@@ -60,23 +60,23 @@ p.parrafo {
 }
 
 .contenedor-obras {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     background-color: darkgreen;
 }
 
-.obra {
+.obra {font-family: 'courier prime';
     display: inline-block;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 200px;
     padding: 20px 20px 10px 10px;
     border-color: black;
     border-style: solid;
     border-width: 2px;
-    margin: 5px;
+    margin: 2px;
 }
 
-.obra:hover {
+.obra:hover {font-family: 'courier prime';
     scale: 1.05;
     display: inline-block;
     width: 400px;
@@ -84,30 +84,30 @@ p.parrafo {
     padding: 20px 20px 10px 10px;
     border-color: black;
     border-style: solid;
-    border-width: 2px;
+    border-width: 5px;
 }
 
 .informacion {
     font-family: 'courier prime';
+    background-color: darkolivegreen;
 
 }
 
 .obra img {
-    margin: 3px;
-    width: 400px;
+    margin: 2px;
+    width: 300px;
     height: 200px;
 
 }
 
 
-
-
-
-.formulario {
-    width: 300px;
+.formulario {font-family: 'courier prime';
+    background-image: url(../assets/img/croquis.jpg);
+    background-size: 90% 90%;
+    width: 400px;
     padding: 16px;
     margin: auto;
-    border: 5px #722f08;
+    border: 15px #722f08;
 
 }
 
@@ -120,10 +120,10 @@ p.parrafo {
 .form input,
 [type="text"],
 [type="mail"],
-[textarea] {
-    width: 180px;
+[textarea] {font-family: 'courier prime';
+    width: 380px;
     padding: 3px;
-    border: 3px;
+    border: 15px;
     background-color: #dd600ca2;
     display: inline-block;
     color: #572508;
@@ -131,7 +131,7 @@ p.parrafo {
 
 }
 
-.textarea {
+.textarea {font-family: 'courier prime';
     width: 100%;
     height: 100px;
     margin-top: 10px;

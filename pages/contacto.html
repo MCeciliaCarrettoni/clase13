@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOA2</title>
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="icon" href="./assets/img/logo doa2.jpg">
+    <link rel="icon" href="../assets/img/logo_doa2.jpg">
+    <script src="https://kit.fontawesome.com/44cd5f6ad2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +21,7 @@
         <h1 class="titulo"> DOA2 ARQUITECTURA</h1>
     </header>
 
-    <nav>
+    <nav class="enlace">
         <ul>
             <li><a href="../index.html">INICIO</a></li>
             <li><a href="#">CONTACTO</a></li>
@@ -27,22 +29,39 @@
     </nav>
     <main>
         <main>
-            <form class="formulario" action="https://miservidor.com/procesar-formulario" enctype="application/x-www-form-urlencoded"
-                autocomplete="off">
-                <label for="nombre">Nombre completo</label>
-                <input type="text" name="nombre" id="" placeholder="Nombre completo" required>
-    
-                <label for="correo electrónico">Correo electrónico</label>
-                <input type="mail" name="correo electrónico" id="" required>
-    
-                <label for="Consulta">Realice su consulta, al abrevedad nos pondremos en contacto con ud.</label>
-                <textarea type="text" name="Consulta" id="" placeholder="Consulta aqui...(máx.400 caracteres)" cols="20"
-                    rows="5" maxlength="400" required></textarea>
-    
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpiar">
+            <form class="formulario" autocomplete="off">
+                <fieldset>
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" name="nombre" id="" placeholder="Nombre completo" required>
+
+                    <label for="correo electrónico">Correo electrónico</label>
+                    <input type="mail" name="correo electrónico" id="" required>
+
+                    <label for="Consulta">Realice su consulta, al abrevedad nos pondremos en contacto con ud.</label>
+                    <textarea type="text" name="Consulta" id="" placeholder="Consulta aqui...(máx.400 caracteres)"
+                        cols="20" rows="5" maxlength="400" required></textarea>
+
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpiar">
+                </fieldset>
+
             </form>
         </main>
     </main>
+    <footer>
+        <div class="informacion">
+            <h3>COMUNICATE CON NOSOTROS AL:2346 X X X X X X </h3>
+            <h3>DIRECCIÓN: AV. VACCAREZZA N°137. ALBERTI</h3>
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i>
+                        Facebook</a></i>
+                <li><a href="https://instagram.com/doa2arquitectura" target="_blank"><i
+                            class="fa-brands fa-instagram"></i> Instagram</a></li>
+            </ul>
+        </div>
+
+    </footer>
 </body>
+
+
 </html>
