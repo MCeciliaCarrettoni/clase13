@@ -1,4 +1,140 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Roboto&display=swap');
-body{background-color: #FAD961;
-    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);}
 
+body {
+    background-color: #FAD961;
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+}
+
+.enlace {
+    font-family: 'courier prime';
+    width: 100%;
+    height: 400px;
+    background-image: url(../assets/img/logo_doa2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.enlace ul {
+    list-style: none;
+}
+
+.enlace a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.enlace a:visited {
+    color: green;
+    list-style: none;
+    text-decoration: none;
+}
+
+.enlace a:hover {
+    background-color: #fa6161;
+}
+
+h1.titulo {
+    font-family: 'courier prime';
+    text-shadow: 5px 5px 6px grey;
+}
+
+h2.subtitulo {
+    font-family: 'courier prime';
+    text-align: center;
+    font-family: 'courier prime';
+}
+
+p.parrafo {
+    font-family: 'courier prime';
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+.LOGO {
+    background-image: url("logo doa2.jpg");
+    background-position: center top;
+    background-size: 70% auto;
+}
+
+.contenedor-obras {
+    width: 80%;
+    margin: 0 auto;
+    background-color: darkgreen;
+}
+
+.obra {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    padding: 20px 20px 10px 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    margin: 5px;
+}
+
+.obra:hover {
+    scale: 1.05;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    padding: 20px 20px 10px 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.informacion {
+    font-family: 'courier prime';
+
+}
+
+.obra img {
+    margin: 3px;
+    width: 400px;
+    height: 200px;
+
+}
+
+
+
+
+
+.formulario {
+    width: 300px;
+    padding: 16px;
+    margin: auto;
+    border: 5px #722f08;
+
+}
+
+.form label {
+    width: 80px;
+    display: inline-block;
+    color: darkgreen;
+}
+
+.form input,
+[type="text"],
+[type="mail"],
+[textarea] {
+    width: 180px;
+    padding: 3px;
+    border: 3px;
+    background-color: #dd600ca2;
+    display: inline-block;
+    color: #572508;
+    margin: 5px 0;
+
+}
+
+.textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    resize: none;
+
+}
